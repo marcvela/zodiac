@@ -27,5 +27,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
-  console.log('My Zodiac Sign is ' + myZodiacSign1 + 'and daugther is ' + myZodiacSign2)
+  console.log('My Zodiac Sign is ' + myZodiacSign1 + "and my daugther's is " + myZodiacSign2)
 });
