@@ -1,8 +1,10 @@
 const zodiacSign = require('get-zodiac-sign');
 var myZodiacSign1 = zodiacSign(3,13);
 var myZodiacSign2 = zodiacSign(2,18);
+var myZodiacSign3 = zodiacSign(4,27);
 console.log(myZodiacSign1);
 console.log(myZodiacSign2);
+console.log(myZodiacSign3);
 
 //use the fs function that comes with node
 const fs = require("fs");
